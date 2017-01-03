@@ -11,7 +11,7 @@ import com.cognizant.trumobi.appintegration.clientsdk.dao.internal.DaoConfig;
 
 public class AssetDetailDao extends EntityDao {	
 public static final String TABLENAME = "CaseDetail_agreementDetails_AgreementDetails_assetDetail";
-
+public static final String PRIMARY_VALUE = null;
 public static final String PRIMARY_KEY = null;
 private Query<Entity> daoFileQuery;
 private DaoSession daoSession;
