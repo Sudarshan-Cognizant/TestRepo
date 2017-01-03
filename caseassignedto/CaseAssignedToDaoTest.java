@@ -34,7 +34,7 @@ QueryBuilder<Entity> queryBuilder = queryBuilder();
 		daoFileQuery = queryBuilder.build();
 	}
 	}
-Query<Entity> query = daoFileQuery.forCurrentThread();
+Query<Entity> querying = daoFileQuery.forCurrentThread();
 	query.setParameter(0, foreignKey);
 	List list = query.list();
 List<appmodel.casedetail.orchestration.agreementdetails.model.caseassignedto.CaseAssignedTo> modelFileObjects = (List<appmodel.casedetail.orchestration.agreementdetails.model.caseassignedto.CaseAssignedTo>) list;
