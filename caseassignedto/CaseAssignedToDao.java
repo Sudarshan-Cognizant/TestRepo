@@ -9,7 +9,7 @@ import com.cognizant.trumobi.appintegration.clientsdk.db.DaoSession;
 import com.cognizant.trumobi.appintegration.clientsdk.db.Entity;
 import com.cognizant.trumobi.appintegration.clientsdk.dao.internal.DaoConfig;
 
-public class CaseAssignedToDao extends EntityDao {	
+public class CaseAssignedToDaoRTest extends EntityDao {	
 public static final String TABLENAME = "CaseDetail_agreementDetails_AgreementDetails_caseAssignedTo";
 
 public static final String PRIMARY_KEY = null;
